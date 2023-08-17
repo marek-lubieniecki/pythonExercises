@@ -12,6 +12,7 @@ def test_star_triangle():
     star_triangle(a)
     assert 1 == 1
 
+
 def test_fibonacci():
     a = fibonacci_series(5)
     b = fibonacci_series(2)

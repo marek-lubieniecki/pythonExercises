@@ -16,13 +16,11 @@ def star_triangle(number_of_rows):
 def fibonacci_series(number):
     if number == 1:
         return [0]
-    list = [0, 1]
+    result = [0, 1]
     for i in range(number-2):
-        next = list[i] + list[i+1]
-        list.append(next)
-    return list
-
-
+        next_number = result[i] + result[i+1]
+        result.append(next_number)
+    return result
 
 
 def triangle_check(a, b, c):
